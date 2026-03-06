@@ -1,5 +1,8 @@
 A running list of things I've learned — big and small, tech and non-tech.
 
+- **2026-03-07** - Update from GH Mobile App:
+    Anthropic named Claude after the American polymath Claude Shannon, who is known as "the father of Information Theory"
+
 - **2026-03-07** — The CSS property `text-wrap: balance` makes headings distribute text more evenly across lines. No JS needed — just one line of CSS:
 
     ```css
