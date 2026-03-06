@@ -1,0 +1,18 @@
+# Inkgit robots.txt
+# Controls which pages search engines can index.
+# Edit this file to suit your needs.
+
+User-agent: *
+
+# Allow the preview/index page
+Allow: /index.html
+
+# Uncomment to block the preview page too:
+# Disallow: /index.html
+
+# Block HTML fragments (they're not standalone pages)
+Disallow: /*.html$
+
+# Block JS assets
+Disallow: /inkgit.js
+Disallow: /inkgit.min.js

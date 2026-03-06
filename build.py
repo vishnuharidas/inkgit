@@ -98,6 +98,12 @@ def main():
         (output_dir / "inkgit.min.js").write_text(js_minified, encoding="utf-8")
         print(f"  inkgit.js + inkgit.min.js")
 
+    # Copy robots.txt
+    robots_src = ASSETS_DIR / "robots.txt"
+    if robots_src.is_file():
+        shutil.copy2(robots_src, output_dir / "robots.txt")
+        print("  robots.txt")
+
     print(f"\nBuilt {len(files)} file(s) into {output_dir}/.")
 
 
