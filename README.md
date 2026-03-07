@@ -76,14 +76,21 @@ The build also generates `index.html` — a minimal styled page that shows all y
 https://<username>.github.io/<repo>/index.html
 ```
 
+Take a look at the index page for this repo: https://vishnuharidas.github.io/inkgit/index.html
+
 ## Styling
 
-The embedded HTML is unstyled — it inherits your site's CSS. The HTML uses standard tags (`<h1>`, `<ul>`, `<li>`, `<code>`, `<pre>`, `<strong>`, etc.), so your existing styles will apply.
+View the raw HTML generated from the markdown files in `/data` directory:
+ - [sample.til.html](https://vishnuharidas.github.io/inkgit/sample.til.html)
+ - [sample.books.html](https://vishnuharidas.github.io/inkgit/sample.books.html)
+ - [sample.hydroponics_updates.html](https://vishnuharidas.github.io/inkgit/sample.hydroponics_updates.html)
+
+The generated HTML is unstyled — it inherits your site's CSS when the content is displayed on your website. The generated HTML uses standard tags (`<h1>`, `<ul>`, `<li>`, `<code>`, `<pre>`, `<strong>`, etc.), so your existing styles will apply.
 
 You can also add a class to the container:
 
 ```html
-<div data-inkgit="https://..." data-inkgit-class="til-section"></div>
+<div data-inkgit="..." data-inkgit-class="til-section"></div>
 ```
 
 ## Markdown format
@@ -91,11 +98,9 @@ You can also add a class to the container:
 Use any standard markdown. A simple list format works well for TIL-style entries:
 
 ```markdown
-- **2026-03-06** — Honey never spoils. Archaeologists have found 3,000-year-old honey
-  in Egyptian tombs that was still perfectly edible.
+- **2026-03-06** — Honey never spoils. Archaeologists have found 3,000-year-old honey in Egyptian tombs that was still perfectly edible.
 
-- **2026-03-05** — Sharks are older than trees. Sharks have been around for about
-  400 million years; trees appeared roughly 350 million years ago.
+- **2026-03-05** — Sharks are older than trees. Sharks have been around for about 400 million years; trees appeared roughly 350 million years ago.
 ```
 
 ## Local build
