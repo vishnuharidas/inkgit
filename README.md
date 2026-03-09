@@ -4,9 +4,9 @@ Inkgit🫟 is a simple tool to serve frequently changing content from a Git repo
 
 ## Example use cases
 
- * **Showing frequently updated section on your website**: For example, a TIL, reading list, project updates, or a changelog — that you want to maintain separately from your main content because you don't want to rebuild your entire site for every small update.
+ * **Showing frequently updated section on your website**: For example, a TIL, reading list, project updates, or a changelog — that you want to maintain separately from your main content because you don't want to rebuild your entire site for every small update. Here's an example that comes included with this repo: [vishnuharidas.github.io/inkgit/](https://vishnuharidas.github.io/inkgit/)
 
- * **Showing updates from AI agents:** For example, an AI agent collecting daily market data and showing it on your site without giving it access to your website CMS.
+ * **Showing updates from AI agents:** For example, an AI agent collecting daily market data and showing it on your site without giving it access to your website CMS. Here'a working example of NanoClaw running on my homeserver delivering daily news: [vishnuharidas.github.io/inkgit-nanoclaw-dailynews/](https://vishnuharidas.github.io/inkgit-nanoclaw-dailynews/)
 
 
 ## How it works
